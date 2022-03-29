@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color : #56595c;
+    color: #fff;
+}
+
+.container{
+    width:80%;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    margin:1.5em;
+}
+label{
+    text-align: center;
+    margin:1em;
+    display: block;
+}
+input[type='text']{
+    display: block;
+    width:80%;
+    padding: 0.5em;
+    margin: auto;
+}
+.display{
+    display: none;
+    width: 80%;
+    padding: 0.8em;
+    margin: auto;
+    margin-top: .5em;
+    background-color: #747b81;
+}
+.error{
+    color: #f00;
+}
