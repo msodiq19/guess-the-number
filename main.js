@@ -3,7 +3,7 @@ const display = document.querySelector('.display');
 const time = 100000;
 let secretNum = Math.round(100*Math.random())
 
-// I'm trying to set a tie limit && I want to implement num of trials
+// I'm trying to set a time limit && I want to implement num of trials
 // document.addEventListener('DOMContentLoaded',()=>{
 //     setInterval(()=>{
 //         const secretNum = Math.round(100*Math.random())
@@ -24,7 +24,7 @@ num.addEventListener('input',()=>{
             display.innerHTML = `Lower!, ${digit} is greater than the secret number`;
         }else{
             console.log(`Voila!, ${digit} is the secret number`)
-            display.innerHTML = `Voila!, ${digit} is the secret number`;
+            display.innerHTML = `Correct!, ${digit} is the secret number`;
             secretNum = Math.round(100*Math.random())
         }
         console.log(secretNum)

@@ -16,11 +16,18 @@ body{
 h1{
     text-align: center;
     margin:1.5em;
+    text-transform: capitalize;
 }
-label{
-    text-align: center;
-    margin:1em;
-    display: block;
+.secret{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em auto;
+    width: 50px;
+    height: 50px;
+    font-size: 36px;
+    background-color: #fff;
+    color: #56595c;
 }
 input[type='text']{
     display: block;
@@ -35,6 +42,10 @@ input[type='text']{
     margin: auto;
     margin-top: .5em;
     background-color: #747b81;
+}
+.score-board{
+    width: 80%;
+    margin: 1em auto;
 }
 .error{
     color: #f00;
